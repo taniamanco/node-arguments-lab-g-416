@@ -13,7 +13,7 @@ var length = 10,
 var argv = process.argv
 
 if (!argv[2] || !argv[3]) {
-  console.log('Please provide an argument, e.g., 5 or 5 10')
+  console.log('Please provide an argument')
   process.exit(1)
 }
 if (argv[2]) {
